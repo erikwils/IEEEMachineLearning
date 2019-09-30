@@ -6,11 +6,11 @@ This tutorial is intended to be used with the Python 3.7 language, numpy, and th
 
 ## Setup
 To begin run the following commands from the command prompt to install the necessary modules (may need slight variations based off the machine):
-'''
+```
 pip install gym
 pip install gym[atari]
 pip install numpy
-'''
+```
 
 ## Starting Input Layer
 To begin, all Machine Learning algoithms need some sort of an input layer. For this scenario, the screen is the input, however, you need to decide what would be the best parts of the screen to actually be used in the input vector. Whether that be the entire screen, only the position of the ball and paddles, or a sampled part of the window, your choice needs to be inputted into an Nx1 vector, where N is the input values you take from the screen.
